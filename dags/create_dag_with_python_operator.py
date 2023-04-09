@@ -15,7 +15,7 @@ def greet(name, age):
 
 with DAG(
     default_args=default_args,
-    dag_id='our_dag_with_python_operator_01',
+    dag_id='our_dag_with_python_operator_v02',
     description='Our first dag using python operator',
     start_date=datetime(2023,4,8),
     schedule_interval='@daily'
